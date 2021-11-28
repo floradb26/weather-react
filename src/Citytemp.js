@@ -8,7 +8,7 @@ export default function Citytemp() {
         3°C
         <span className="units">
           {" "}
-          <a href="#">F°</a>|<a href="#">C°</a>
+          <a href="https://github.com/floradb26/weather-react">F°</a>|<a href="https://github.com/floradb26/weather-react">C°</a>
         </span>
         <ReactAnimatedWeather
         icon="RAIN"
