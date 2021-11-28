@@ -83,6 +83,7 @@ export default function Weeklytemp() {
                     <p class="temperature">3°C</p>
                 </div>
             </div>
+            <div className="signature">This project was coded by 👩🏾‍💻 Floriane Ramirez De Bruyne and it is <a href="https://github.com/floradb26/weather-react" target="_blank" rel="noreferrer">open-sourced </a> on GitHub and hosted on Netlify</div>
         </div>
     </div>
     );

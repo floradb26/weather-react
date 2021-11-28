@@ -40,6 +40,14 @@ h1 {
   vertical-align: 244%;
 }
 
+.signature {
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
 .Weather a {
   color: #ADC4FC;
   font-weight: lighter;
