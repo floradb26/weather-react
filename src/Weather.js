@@ -5,7 +5,6 @@ import Citytemp from "./Citytemp";
 import Weeklytemp from "./Weeklytemp";
 import axios from "axios";
 
-
 export default function Weather(props){
 
 function displayWeather(response){
