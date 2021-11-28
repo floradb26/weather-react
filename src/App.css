@@ -2,7 +2,12 @@ body {
   background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: Mukta;
   margin: 50px 400px;
+}
+
+h1 {
+  font-family: Poppins;
 }
 
 .card {
@@ -37,19 +42,20 @@ body {
 
 .Weather a {
   color: #ADC4FC;
-  font-weight: bold;
+  font-weight: lighter;
   text-decoration: underline;
 }
 
 .Weather a:hover {
   color: #ADC4FC;
-  font-weight: bold;
+  font-weight: lighter;
   text-decoration: none;
 }
 
 .Weather button {
   display: inline;
 }
+
 
 .Weather h1 {
   color: #ffffff;
