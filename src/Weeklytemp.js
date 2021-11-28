@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Weeklytemp() {
   return (
@@ -7,7 +8,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">M</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="RAIN"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">1°C</p>
                 </div>
@@ -15,7 +21,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">T</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="FOG"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">3°C</p>
                 </div>
@@ -23,7 +34,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">W</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="WIND"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">2°C</p>
                 </div>
@@ -31,7 +47,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">T</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="RAIN"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">4°C</p>
                 </div>
@@ -39,7 +60,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">F</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="CLOUDY"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">2°C</p>
                 </div>
@@ -47,7 +73,12 @@ export default function Weeklytemp() {
             <div className="col-sm-2">
                 <div className="card-body">
                     <p class="weekday">S</p>
-                    <i class="fas fa-cloud-sun"></i>
+                    <ReactAnimatedWeather
+                        icon="WIND"
+                        color="#e0c3fc"
+                        size={23}
+                        animate={true}
+                    />
                     <br/>
                     <p class="temperature">3°C</p>
                 </div>
