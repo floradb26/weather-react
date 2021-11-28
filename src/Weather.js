@@ -2,6 +2,7 @@ import React from "react";
 import Form from "./Form";
 import Tempinfo from "./Tempinfo";
 import Citytemp from "./Citytemp";
+import Weeklytemp from "./Weeklytemp";
 import axios from "axios";
 
 
@@ -19,6 +20,7 @@ return (
       <Form />
       <Tempinfo />
       <Citytemp />
+      <Weeklytemp />
     </div>
   );
 

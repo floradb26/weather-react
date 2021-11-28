@@ -10,7 +10,7 @@ body {
   border: none;
   display: block;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 750px;
 }
 
 .cardHeader {
@@ -28,12 +28,15 @@ body {
 }
 
 .Weather a {
-  color: #5F85DB;
-  text-decoration: none;
+  color: #ADC4FC;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .Weather a:hover {
-  color: #5F85DB;
+  color: #ADC4FC;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .Weather button {
@@ -52,7 +55,11 @@ body {
 
 .Weather section h2 {
   font-size: 100px;
-  color: #5F85DB;
+  color: #e0c3fc;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.weekday, .fa-cloud-sun, .temperature {
+  color: #ffffff;
 }
