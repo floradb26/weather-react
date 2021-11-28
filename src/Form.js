@@ -11,7 +11,7 @@ export default function Form() {
             placeholder="Enter your city"
           />
           &nbsp; &nbsp;
-          <button type="submit" className="btn btn-outline-primary">
+          <button type="submit" className="btn btn-primary">
             Search
           </button>
         </div>
