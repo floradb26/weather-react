@@ -11,3 +11,39 @@ body {
   margin: 60px 60px 0px 60px;
   text-align: center;
 }
+
+.units {
+  font-size: 15px;
+  line-height: 24px;
+  vertical-align: 244%;
+}
+
+.Weather a {
+  color: #cd7f4f;
+  text-decoration: none;
+}
+
+.Weather a:hover {
+  color: #e9005d;
+}
+
+.Weather button {
+  display: inline;
+}
+
+.Weather h1 {
+  color: #cd7f4f;
+  font-size: 25px;
+}
+
+.Weather h3 {
+  color: #cd7f4f;
+  font-size: 15px;
+}
+
+.Weather section h2 {
+  font-size: 100px;
+  color: #e9005d;
+  margin-bottom: 50px;
+  text-align: center;
+}
