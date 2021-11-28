@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="card">
+        <div className="cardHeader">
           <Weather city="Brussels"/>
+        </div>
       </div>
     </div>
   );
