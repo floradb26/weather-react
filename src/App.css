@@ -8,7 +8,9 @@ body {
   border: none;
   box-shadow: 12px 12px 2px 1px rgb(193 193 241 / 20%);
   color:#ffffff;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .cardHeader {
