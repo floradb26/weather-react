@@ -47,6 +47,9 @@ h1 {
   padding-bottom: 30px;
 }
 
+.Tempinfo {
+  font-family: Poppins;
+}
 
 .Weather a {
   color: #ADC4FC;
