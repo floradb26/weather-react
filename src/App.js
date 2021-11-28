@@ -5,11 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-        <Weather city="Brussels"/>
-
-      </header>
+      <div className="card">
+          <Weather city="Brussels"/>
+      </div>
     </div>
   );
 }
