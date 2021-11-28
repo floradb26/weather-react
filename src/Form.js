@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form() {
   return (
-    <div className="Form">
+    <div className="form">
       <form>
         <div className="mb-3">
           <input
@@ -11,7 +11,7 @@ export default function Form() {
             placeholder="Enter your city"
           />
           &nbsp; &nbsp;
-          <button type="submit" className="btn btn-outline-danger">
+          <button type="submit" className="btn btn-outline-primary">
             Search
           </button>
         </div>

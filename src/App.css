@@ -16,7 +16,7 @@ body {
 }
 
 .form {
-  padding: 30px 0px 0px 10px;
+  padding-top: 50px;
 }
 
 .units {
@@ -26,12 +26,12 @@ body {
 }
 
 .Weather a {
-  color: #cd7f4f;
+  color: #5F85DB;
   text-decoration: none;
 }
 
 .Weather a:hover {
-  color: #e9005d;
+  color: #5F85DB;
 }
 
 .Weather button {
@@ -39,18 +39,18 @@ body {
 }
 
 .Weather h1 {
-  color: #cd7f4f;
+  color: #5F85DB;
   font-size: 25px;
 }
 
 .Weather h3 {
-  color: #cd7f4f;
+  color: #5F85DB;
   font-size: 15px;
 }
 
 .Weather section h2 {
   font-size: 100px;
-  color: #e9005d;
+  color: #5F85DB;
   margin-bottom: 50px;
   text-align: center;
 }
