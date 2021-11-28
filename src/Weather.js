@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import Tempinfo from "./Tempinfo";
+import Maintemp from "./Maintemp";
 import Citytemp from "./Citytemp";
 import Weeklytemp from "./Weeklytemp";
 import axios from "axios";
@@ -22,7 +22,7 @@ axios.get(apiUrl).then(displayWeather);
 return (
     <div className="Weather">
       <Form />
-      <Tempinfo />
+      <Maintemp />
       <Citytemp />
       <Weeklytemp />
     </div>
